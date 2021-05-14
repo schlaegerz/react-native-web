@@ -24,6 +24,7 @@ export type GenericStyleProp<+T> =
   | $ReadOnly<T>
   | false
   | ''
+  | number
   | $ReadOnlyArray<GenericStyleProp<T>>;
 
 export type LayoutValue = {
